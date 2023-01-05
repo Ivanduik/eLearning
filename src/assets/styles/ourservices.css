@@ -4,7 +4,7 @@
     margin: auto;
 }
 .ourServices__container{
-    padding: 70px 120px;
+    padding: 70px 120px 40px;
 }
 .ourServices__info-text{
     font-family: 'Inter';
@@ -93,27 +93,27 @@ background: #7F56D9;
     font-size: 18px;
     line-height: 140%;
     text-align: center;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.015em;
     color: #7F56D9;
 }
-.ourServices__slide{
+.ourServices__slider{
     max-width: 100%;
 }
-.ourServices__slide-wrapper{
+.ourServices__slider-wrapper{
     position: relative;
     display: flex;
     flex-direction: row;
     justify-content: center;
     column-gap: 12px;
 }
-.ourServices__slide-item{   
+.ourServices__slider-item{   
     
     width: 12px;
     height: 12px;
     border-radius: 50%;
     background-color: #D9D9D9;
 }
-.ourServices__slide-item--active{
+.ourServices__slider-item--active{
     position: absolute;
     max-width: 48px;
     width: 100%;
