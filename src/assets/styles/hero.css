@@ -215,7 +215,7 @@
     padding: 17px;
     
 }
-.hero__student-girl-tutors-text-text{
+.hero__student-girl-tutors__text-text{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -225,7 +225,7 @@
     opacity: 0.5;
     margin-bottom: 2px;
 }
-.hero__student-girl-tutors-text-number{
+.hero__student-girl-tutors__text-number{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -234,7 +234,7 @@
     color: #101828;
     
 }
-.hero__student-girl-tutors-icon{
+.hero__student-girl-tutors__icon{
     max-width: 50px;
     width: 100%;
     margin-right: 12px;

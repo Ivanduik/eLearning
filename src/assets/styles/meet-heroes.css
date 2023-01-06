@@ -1,0 +1,106 @@
+.tutors{
+        max-width: 1440px;
+        width: 100%;
+        margin: auto;
+        padding: 40px 120px;
+        box-sizing: border-box;
+
+}
+.tutors__text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #6941C6;
+    margin-bottom: 12px;
+}
+.tutors__title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #101828;
+    margin-bottom: 20px;
+}
+.tutors__info{
+    max-width: 768px;
+    width: 100%;
+    margin: auto;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #667085;
+    margin-bottom: 40px;
+}
+.tutors__meetHeroes{
+    display: flex;
+    justify-content: space-between;
+}
+.tutors__meetHeroes-item{
+    display: flex;
+    max-width: 276px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 24px;
+    background: #F9FAFB;  
+
+}
+.tutors__meetHeroes-item-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.tutors__meetHeroes-item-hero{
+    text-align: center;
+}
+
+.tutors__meetHeroes-item-hero-photo{
+    max-width: 80px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.tutors__meetHeroes-item-hero-name{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #101828;
+}
+.tutors__meetHeroes-item-hero-category{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #6941C6;
+    margin-bottom: 8px;
+}
+.tutors__meetHeroes-item-hero-info{
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #667085;
+    margin-bottom: 16px;
+}
+.tutors__meetHeroes-item-hero-contact{
+    display: flex;
+    justify-content: center;
+}
+.tutors__meetHeroes-item-hero-contact>:first-child{
+    margin-right: 16px;
+}
