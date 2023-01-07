@@ -1,0 +1,168 @@
+.ourRecent {
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 40px 80px 80px;
+}
+
+.ourRecent-wrapper {
+    padding: 0 32px;
+}
+
+.ourRecent-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #101828;
+    margin-bottom: 32px;
+}
+
+.ourRecent__articles {
+    display: flex;
+    flex-direction: row;
+    column-gap: 32px;
+}
+
+.ourRecent__articles-small {
+    max-width: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+
+}
+
+.ourRecent__articles-small-article {
+    display: flex;
+    column-gap: 24px;
+
+}
+
+.ourRecent__articles-small-article-img {
+    max-width: 320px;
+    width: 100%;
+}
+
+.ourRecent__articles-small-article-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ourRecent__articles-small-article-text-date,
+.ourRecent__articles-big-article-text-date {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #6941C6;
+    margin-bottom: 12px;
+}
+
+.ourRecent__articles-big-article-text-date {
+    margin-bottom: 14px;
+}
+
+.ourRecent__articles-small-article-text-title,
+.ourRecent__articles-big-article-text-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #101828;
+    margin-bottom: 8px;
+}
+
+.ourRecent__articles-big-article-text-title {
+
+    margin-bottom: 9px;
+}
+
+.ourRecent__articles-big-article-text-title {
+    margin-bottom: 14px;
+}
+
+.ourRecent__articles-small-article-text-info,
+.ourRecent__articles-big-article-text-info {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
+    margin-bottom: 24px;
+}
+
+.ourRecent__articles-big-article-text-info {
+    margin-bottom: 26px;
+}
+
+.ourRecent__articles-small-article-text-category,
+.ourRecent__articles-big-article-text-category {
+    display: flex;
+    column-gap: 8px;
+    flex-wrap: wrap;
+}
+
+.ourRecent__articles-small-article-text-category-research,
+.ourRecent__articles-big-article-text-category-research,
+.ourRecent__articles-small-article-text-category-uiux,
+.ourRecent__articles-small-article-text-category-uiDesign,
+.ourRecent__articles-big-article-text-category-programming,
+.ourRecent__articles-big-article-text-category-developments {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 10px;
+    background: #FDF2FA;
+    border-radius: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C11574;
+    text-align: center;
+}
+
+.ourRecent__articles-small-article-text-category-uiux {
+    background: #ECFDF3;
+    color: #027A48;
+}
+
+.ourRecent__articles-small-article-text-category-uiDesign {
+    background: #F0F9FF;
+    color: #026AA2;
+
+}
+
+.ourRecent__articles-big-article-text-category-programming {
+    background: #F9F5FF;
+    color: #6941C6;
+}
+
+.ourRecent__articles-big-article-text-category-research {
+    background: #EEF4FF;
+    color: #3538CD;
+}
+
+.ourRecent__articles-big-article-text-category-developments {
+    background: #FDF2FA;
+    color: #C11574;
+}
+
+/* .ourRecent__articles-big-article{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} */
+.ourRecent__articles-big-article-img {
+    max-width: 592px;
+    width: 100%;
+    margin-bottom: 33px;
+}
