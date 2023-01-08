@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="./src/assets/styles/meet-heroes.css">
     <link rel="stylesheet" href="./src/assets/styles/student.css">
     <link rel="stylesheet" href="./src/assets/styles/our-recent.css">
+    <link rel="stylesheet" href="./src/assets/styles/footer.css">
+
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,10 +27,10 @@
     <header class="header">
         <div class="header-container">
             <div class="header__navigation">
-                <a class="header__logo" href=""> <img class="header__logo-icon" src="./src/assets/icons/header-logo.svg"
+                <a class="header__logo" href=""> <img class="header__logo-icon" src="./src/assets/icons/header-logo.png"
                         alt="logo"></a>
                 <div class="header__search">
-                    <img class="header__search-icon" src="./src/assets/icons/header-icon-search.svg" alt="search icon">
+                    <img class="header__search-icon" src="./src/assets/icons/header-icon-search.png" alt="search icon">
                     <input class="header__search-input" type="search" placeholder="Want to learn?">
                     <select class="header__search-select" name="headerSearch">
                         <option class="header__search-select-option" selected disabled>Explore</option>
@@ -36,7 +38,7 @@
                         <option class="header__search-select-option" value="webDevelopment">Web Development</option>
                         <option class="header__search-select-option" value="marketing">Marketing</option>
                     </select>
-                    <img class="header__search-select-arrow-down" src="./src/assets/icons/header-arrow-down.svg"
+                    <img class="header__search-select-arrow-down" src="./src/assets/icons/header-arrow-down.png"
                         alt="arrow down">
                 </div>
                 <nav class="header__nav">
@@ -60,9 +62,11 @@
     </header>
 
     <main>
-        <div></div>
-        <div></div>
+
         <div class="hero">
+            <img class="hero-ellipse-left" src="/src/assets/icons/hero-ellipse-left.png" alt="ellipse">
+            <img class="hero-ellipse-right" src="/src/assets/icons/hero-ellipse-right.png" alt="ellipse">
+
             <div class="hero-container">
                 <div class="hero__upyourskill">
                     <div class="hero__upyourskill-wrapper">
@@ -79,25 +83,25 @@
                             <button class="hero__upyourskill-title-btns-start" type="button">Get Started</button>
                             <button class="hero__upyourskill-title-btns-trial" type="button">Get free trial</button>
                         </div>
-                        <div class="hero__upyourskill-icons">
-                            <div class="hero__upyourskill-icon-img-wrapper">
+                        <ul class="hero__upyourskill-icons">
+                            <li class="hero__upyourskill-icon-img-wrapper">
                                 <img class="hero__upyourskill-icon-img"
-                                    src="./src/assets/icons/hero-public-speaking.svg" alt="icon public speaking">
+                                    src="./src/assets/icons/hero-public-speaking.png" alt="icon public speaking">
                                 <span class="hero__upyourskill-icon-img-info">Public Speaking</span>
-                            </div>
+                            </li>
 
-                            <div class="hero__upyourskill-icon-img-wrapper">
+                            <li class="hero__upyourskill-icon-img-wrapper">
                                 <img class="hero__upyourskill-icon-img"
-                                    src="./src/assets/icons/hero-career-oriented.svg" alt="icon career oriented">
+                                    src="./src/assets/icons/hero-career-oriented.png" alt="icon career oriented">
                                 <span class="hero__upyourskill-icon-img-info">Career-Oriented</span>
-                            </div>
-                            <div class="hero__upyourskill-icon-img-wrapper">
+                            </li>
+                            <li class="hero__upyourskill-icon-img-wrapper">
                                 <img class="hero__upyourskill-icon-img"
-                                    src="./src/assets/icons/hero-сreative-еhinking.svg" alt="icon сreative еhinking">
+                                    src="./src/assets/icons/hero-сreative-еhinking.png" alt="icon сreative еhinking">
                                 <span class="hero__upyourskill-icon-img-info">Creative Thinking</span>
-                            </div>
+                            </li>
 
-                        </div>
+                        </ul>
 
                     </div>
 
@@ -143,21 +147,29 @@
                     <p class="hero__link-partner-collaboration-number">250+</p>
                     <p class="hero__link-partner-collaboration-info">Collaboration</p>
                 </div>
-                <div class="hero__link-partner-icon">
-                    <a class="hero__link-partner-icon-link" href="https://www.duolingo.com/"><img
-                            class="hero__link-partner-icon-link" src="./src/assets/icons/hero-duolingo-icon.png"
-                            alt="duolingo icon"></a>
-                    <a class="hero__link-partner-icon-link" href="https://about.codecov.io/"><img
-                            class="hero__link-partner-icon-link" src="./src/assets/icons/hero-codecov-icon.png"
-                            alt="codecov icon"></a>
-                    <a class="hero__link-partner-icon-link" href="https://www.usertesting.com/"><img
-                            class="hero__link-partner-icon-link" src="./src/assets/icons/hero-user-testing-icon.png"
-                            alt="user testing icon"></a>
-                    <a class="hero__link-partner-icon-link" href="https://www.magicleap.com/"><img
-                            class="hero__link-partner-icon-link" src="./src/assets/icons/hero-magic-leap-icon.png"
-                            alt="magic leap icon"></a>
+                <ul class="hero__link-partner-icon">
+                    <li class="hero__link-partner-icon-item">
+                        <a class="hero__link-partner-icon-item-link" href="https://www.duolingo.com/"><img
+                                class="hero__link-partner-icon-item-link-img"
+                                src="./src/assets/icons/hero-duolingo-icon.png" alt="duolingo icon"></a>
+                    </li>
+                    <li class="hero__link-partner-icon-item">
+                        <a class="hero__link-partner-icon-item-link" href="https://about.codecov.io/"><img
+                                class="hero__link-partner-icon-item-link-img"
+                                src="./src/assets/icons/hero-codecov-icon.png" alt="codecov icon"></a>
+                    </li>
+                    <li class="hero__link-partner-icon-item">
+                        <a class="hero__link-partner-icon-item-link" href="https://www.usertesting.com/"><img
+                                class="hero__link-partner-icon-item-link-img"
+                                src="./src/assets/icons/hero-user-testing-icon.png" alt="user testing icon"></a>
+                    </li>
+                    <li class="hero__link-partner-icon-item">
+                        <a class="hero__link-partner-icon-item-link" href="https://www.magicleap.com/"><img
+                                class="hero__link-partner-icon-item-link-img"
+                                src="./src/assets/icons/hero-magic-leap-icon.png" alt="magic leap icon"></a>
+                    </li>
 
-                </div>
+                </ul>
 
             </div>
         </div>
@@ -176,7 +188,7 @@
                         </div>
                         <p class="ourServices__services-item-text">Lessons on design that cover the most recent
                             developments.</p>
-                        <a class="ourServices__services-item-link" href="#">Learn More &nbsp ></a>
+                        <a class="ourServices__services-item-link" href="#">Learn More &nbsp; ></a>
 
                     </li>
                     <li class="ourServices__services-item">
@@ -188,7 +200,7 @@
                         </div>
                         <p class="ourServices__services-item-text">Lessons on design that cover the most recent
                             developments.</p>
-                        <a class="ourServices__services-item-link" href="#">Learn More &nbsp ></a>
+                        <a class="ourServices__services-item-link" href="#">Learn More &nbsp; ></a>
 
                     </li>
                     <li class="ourServices__services-item">
@@ -199,7 +211,7 @@
                         </div>
                         <p class="ourServices__services-item-text">Lessons on design that cover the most recent
                             developments.</p>
-                        <a class="ourServices__services-item-link" href="#">Learn More &nbsp ></a>
+                        <a class="ourServices__services-item-link" href="#">Learn More &nbsp; ></a>
                     </li>
 
                 </ul>
@@ -221,6 +233,9 @@
             </div>
 
         </div>
+
+
+
         <div class="explorePrograms">
             <div class="explorePrograms-wrapper">
                 <p class="explorePrograms-text">Explore Programs</p>
@@ -229,6 +244,7 @@
                     useful for you.</p>
             </div>
             <ul class="explorePrograms-programs">
+
                 <li class="explorePrograms-programs-item">
                     <div class="explorePrograms-programs-item-img">
                         <img class="explorePrograms-programs-item-img-back"
@@ -239,6 +255,7 @@
                                 alt="image time icon"> 08 hr 12 mins
                         </p>
                     </div>
+
                     <div class="explorePrograms-programs-item-description">
                         <p class="explorePrograms-programs-item-description-category">
                             Design
@@ -280,6 +297,8 @@
                         </div>
                     </div>
                 </li>
+
+
                 <li class="explorePrograms-programs-item">
                     <div class="explorePrograms-programs-item-img">
                         <img class="explorePrograms-programs-item-img-back"
@@ -331,6 +350,8 @@
                         </div>
                     </div>
                 </li>
+
+
                 <li class="explorePrograms-programs-item">
                     <div class="explorePrograms-programs-item-img">
                         <img class="explorePrograms-programs-item-img-back"
@@ -380,8 +401,10 @@
                             </div>
                             <p class="explorePrograms__teacher-cost">$11.70
                         </div>
+                    </div>
                 </li>
             </ul>
+
             <div class="explorePrograms__slider">
                 <div class="explorePrograms__slider-wrapper">
                     <div class="explorePrograms__slider-item">
@@ -421,11 +444,11 @@
                             <a class="tutors__meetHeroes-item-hero-contact-link" href=""><img
                                     class="tutors__meetHeroes-item-hero-contact-icon"
                                     src="./src/assets/icons/meet-heroes-twitter-icon.png" alt="twitter icon"></a>
-                            <img class="tutors__meetHeroes-item-hero-contact-link-icon" src="" alt="">
+
                             <a class="tutors__meetHeroes-item-hero-contact-link" href=""><img
                                     class="tutors__meetHeroes-item-hero-contact-icon"
                                     src="./src/assets/icons/meet-heroes-inst-icon.png" alt=" insta icon"></a>
-                            <img class="tutors__meetHeroes-item-hero-contact-link-icon" src="" alt="">
+
                         </div>
                     </div>
                 </li>
@@ -445,11 +468,11 @@
                             <a class="tutors__meetHeroes-item-hero-contact-link" href=""><img
                                     class="tutors__meetHeroes-item-hero-contact-icon"
                                     src="./src/assets/icons/meet-heroes-twitter-icon.png" alt="twitter icon"></a>
-                            <img class="tutors__meetHeroes-item-hero-contact-link-icon" src="" alt="">
+
                             <a class="tutors__meetHeroes-item-hero-contact-link" href=""><img
                                     class="tutors__meetHeroes-item-hero-contact-icon"
                                     src="./src/assets/icons/meet-heroes-inst-icon.png" alt=" insta icon"></a>
-                            <img class="tutors__meetHeroes-item-hero-contact-link-icon" src="" alt="">
+
                         </div>
                     </div>
                 </li>
@@ -468,11 +491,11 @@
                             <a class="tutors__meetHeroes-item-hero-contact-link" href=""><img
                                     class="tutors__meetHeroes-item-hero-contact-icon"
                                     src="./src/assets/icons/meet-heroes-twitter-icon.png" alt="twitter icon"></a>
-                            <img class="tutors__meetHeroes-item-hero-contact-link-icon" src="" alt="">
+
                             <a class="tutors__meetHeroes-item-hero-contact-link" href=""><img
                                     class="tutors__meetHeroes-item-hero-contact-icon"
                                     src="./src/assets/icons/meet-heroes-inst-icon.png" alt=" insta icon"></a>
-                            <img class="tutors__meetHeroes-item-hero-contact-link-icon" src="" alt="">
+
                         </div>
 
                     </div>
@@ -492,17 +515,19 @@
                             <a class="tutors__meetHeroes-item-hero-contact-link" href=""><img
                                     class="tutors__meetHeroes-item-hero-contact-icon"
                                     src="./src/assets/icons/meet-heroes-twitter-icon.png" alt="twitter icon"></a>
-                            <img class="tutors__meetHeroes-item-hero-contact-link-icon" src="" alt="">
+
                             <a class="tutors__meetHeroes-item-hero-contact-link" href=""><img
                                     class="tutors__meetHeroes-item-hero-contact-icon"
                                     src="./src/assets/icons/meet-heroes-inst-icon.png" alt=" insta icon"></a>
-                            <img class="tutors__meetHeroes-item-hero-contact-link-icon" src="" alt="">
+
                         </div>
                     </div>
                 </li>
             </ul>
 
         </div>
+
+
         <div class="reviews">
             <div class="reviews__wrapper">
                 <img class="reviews__logo" src="./src/assets/icons/reviews-logo.png" alt="Logo">
@@ -544,8 +569,8 @@
                                 <p class="ourRecent__articles-small-article-text-date">November 16, 2014</p>
                                 <h5 class="ourRecent__articles-small-article-text-title">Three Pillars of User Delight
                                 </h5>
-                                <article class="ourRecent__articles-small-article-text-info">Delight can be experienced
-                                    viscerally, behaviourally, and reflectively. A great design is ...</article>
+                                <div class="ourRecent__articles-small-article-text-info">Delight can be experienced
+                                    viscerally, behaviourally, and reflectively. A great design is ...</div>
                                 <div class="ourRecent__articles-small-article-text-category">
                                     <p class="ourRecent__articles-small-article-text-category-research">
                                         Research</p>
@@ -560,10 +585,10 @@
                             <div class="ourRecent__articles-small-article-text">
                                 <p class="ourRecent__articles-small-article-text-date">September 24, 2017</p>
                                 <h5 class="ourRecent__articles-small-article-text-title">UX Mapping Methods</h5>
-                                <article class="ourRecent__articles-small-article-text-info">Visual-design principles
+                                <div class="ourRecent__articles-small-article-text-info">Visual-design principles
                                     can be
                                     applied consistently throughout the process of creating a polished UX map...
-                                </article>
+                                </div>
                                 <div class="ourRecent__articles-small-article-text-category">
                                     <p class="ourRecent__articles-small-article-text-category-research">Research</p>
                                     <p class="ourRecent__articles-small-article-text-category-uiDesign">UI Design</p>
@@ -583,10 +608,10 @@
                                 <h5 class="ourRecent__articles-big-article-text-title">Agile Development Projects and
                                     Usability
                                 </h5>
-                                <article class="ourRecent__articles-big-article-text-info">Agile methods aim to overcome
+                                <div class="ourRecent__articles-big-article-text-info">Agile methods aim to overcome
                                     usability barriers in traditional development, but post new threats to user
                                     experience
-                                    quality.</article>
+                                    quality.</div>
                                 <div class="ourRecent__articles-big-article-text-category">
                                     <p class="ourRecent__articles-big-article-text-category-programming">Programming</p>
                                     <p class="ourRecent__articles-big-article-text-category-research">Research</p>
@@ -600,6 +625,127 @@
             </div>
         </div>
     </main>
+
+
+
+
+    <footer class="footer">
+        <div class="footer-wrapper">
+            <div class="footer__discription">
+                <div class="footer__discription-logo">
+                    <img src="./src/assets/icons/footer-discription-logo.png" alt="logo icon">
+
+                </div>
+                <p class="footer__discription-info">Top learning experiences that create more talent in the world.</p>
+            </div>
+            <div class="footer__menu">
+                <ul class="footer__menu-items">
+                    <li class="footer__menu-items-menu">
+                        <ul class="footer__menu-items-menu">
+                            <li class="footer__menu-items-menu-item-title">Product</li>
+                            <li class="footer__menu-items-menu-item">
+                                <a class="footer__menu-items-menu-item-link" href="">Overview</a>
+                            </li>
+                            <li class="footer__menu-items-menu-item">
+                                <a class="footer__menu-items-menu-item-link" href="">Features</a>
+                            </li>
+                            <li class="footer__menu-items-menu-item">
+                                <a class="footer__menu-items-menu-item-link" href="">Solutions</a>
+                            </li>
+
+                            <li class="footer__menu-items-menu-item">
+                                <a class="footer__menu-items-menu-item-link" href="">Tutorials</a>
+                            </li>
+                            <li class="footer__menu-items-menu-item">
+                                <a class="footer__menu-items-menu-item-link" href="">Pricing</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="footer__menu-items-menu">
+                        <ul class="footer__menu-items-menu">
+                            <li class="footer__menu-items-menu-item-title">Company</li>
+                            <li class="footer__menu-items-menu-item">
+                                <a class="footer__menu-items-menu-item-link" href="">About us</a>
+                            </li>
+                            <li class="footer__menu-items-menu-item">
+                                <a class="footer__menu-items-menu-item-link" href="">Careers</a>
+                            </li>
+                            <li class="footer__menu-items-menu-item">
+                                <a class="footer__menu-items-menu-item-link" href="">Press</a>
+                            </li>
+
+                            <li class="footer__menu-items-menu-item">
+                                <a class="footer__menu-items-menu-item-link" href="">News <span
+                                        class="footer__menu-items-menu-item-link-icon">New</span></a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li class="footer__menu-items-menu">
+                        <ul class="footer__menu-items-menu">
+                            <li class="footer__menu-items-menu-item-title">Social</li>
+                            <li class="footer__menu-items-menu-item">
+                                <a class="footer__menu-items-menu-item-link" href="">Twitter</a>
+                            </li>
+                            <li class="footer__menu-items-menu-item">
+                                <a class="footer__menu-items-menu-item-link" href="">linkedln</a>
+                            </li>
+                            <li class="footer__menu-items-menu-item">
+                                <a class="footer__menu-items-menu-item-link" href="">GitHub</a>
+                            </li>
+
+                            <li class="footer__menu-items-menu-item">
+                                <a class="footer__menu-items-menu-item-link" href="">Dribbble</a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li class="footer__menu-items-menu">
+                        <ul class="footer__menu-items-menu">
+                            <li class="footer__menu-items-menu-item-title">Legal</li>
+                            <li class="footer__menu-items-menu-item">
+                                <a class="footer__menu-items-menu-item-link" href="">Terms</a>
+                            </li>
+                            <li class="footer__menu-items-menu-item">
+                                <a class="footer__menu-items-menu-item-link" href="">Privacy</a>
+                            </li>
+                            <li class="footer__menu-items-menu-item">
+                                <a class="footer__menu-items-menu-item-link" href="">Cookies</a>
+                            </li>
+
+                            <li class="footer__menu-items-menu-item">
+                                <a class="footer__menu-items-menu-item-link" href="">Contact</a>
+                            </li>
+
+                        </ul>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+        <div class="footer-contats">
+            <div class="footer-contats-info">
+                <p>© 2022 Ed-Circle. All rights reserved.</p>
+            </div>
+            <ul class="footer-contats-info-social">
+                <li> <img class="footer-contats-info-social-img"
+                        src="./src/assets/icons/footer-contats-info-omline-twitter.png" alt="twitter logo"></li>
+                <li> <img class="footer-contats-info-social-img"
+                        src="./src/assets/icons/footer-contats-info-omline-linkedln.png" alt="linkedln logo"></li>
+                <li> <img class="footer-contats-info-social-img"
+                        src="./src/assets/icons/footer-contats-info-omline-facebook.png" alt="facebook logo"></li>
+                <li> <img class="footer-contats-info-social-img"
+                        src="./src/assets/icons/footer-contats-info-omline-github.png" alt="github logo"></li>
+                <li> <img class="footer-contats-info-social-img"
+                        src="./src/assets/icons/footer-contats-info-omline-dribbble.png" alt="dribbble logo"></li>
+
+            </ul>
+
+        </div>
+
+
+    </footer>
 
 </body>
 

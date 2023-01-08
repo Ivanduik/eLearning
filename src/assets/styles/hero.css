@@ -1,38 +1,60 @@
-.hero{
+.hero {
+    position: relative;
     max-width: 1440px;
     width: 100%;
     margin: auto;
     padding: 40px 120px 47px;
     box-sizing: border-box;
+    overflow: hidden;
 }
-.hero-container{
+
+.hero-ellipse-left {
+    position: absolute;
+    left: -10px;
+    top: 10%;
+    z-index: -100;
+}
+
+.hero-ellipse-right {
+    position: absolute;
+    right: -39px;
+    bottom: 1%;
+    z-index: -100;
+}
+
+.hero-container {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
     margin-bottom: 73px;
 }
-.hero__upyourskill{
+
+.hero__upyourskill {
     box-sizing: border-box;
     max-width: 573px;
     width: 100%;
+
 }
-.hero__upyourskill-title{
+
+.hero__upyourskill-title {
     padding-top: 60px;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 64px;
-        line-height: 82px;
-        letter-spacing: -0.5px;
-        text-transform: capitalize;    
-        color: #101828;
-        margin-bottom: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 82px;
+    letter-spacing: -0.5px;
+    text-transform: capitalize;
+    color: #101828;
+    margin-bottom: 20px;
 }
-.hero__upyourskill-title-purpule{
+
+.hero__upyourskill-title-purpule {
     color: #7F56D9;
 }
-.hero__upyourskill-info{
+
+.hero__upyourskill-info {
     max-width: 500px;
     font-family: 'Inter';
     font-style: normal;
@@ -42,10 +64,12 @@
     color: #646464;
     margin-bottom: 36px;
 }
-.hero__upyourskill-title-btns{
-   margin-bottom: 50px;
+
+.hero__upyourskill-title-btns {
+    margin-bottom: 50px;
 }
-.hero__upyourskill-title-btns-start{
+
+.hero__upyourskill-title-btns-start {
     padding: 16px 28px;
     font-family: Inter;
     font-size: 18px;
@@ -55,11 +79,12 @@
     background: #7F56D9;
     border: 1px solid #7F56D9;
     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px #F4EBFF;
-    color: #FFFFFF;   
-    margin-right: 28px; 
-    cursor: pointer;   
-   }
-.hero__upyourskill-title-btns-trial{
+    color: #FFFFFF;
+    margin-right: 28px;
+    cursor: pointer;
+}
+
+.hero__upyourskill-title-btns-trial {
     padding: 16px 28px;
     font-family: Inter;
     font-size: 18px;
@@ -71,20 +96,24 @@
     border: none;
     cursor: pointer;
 }
-.hero__upyourskill-icons{
+
+.hero__upyourskill-icons {
     max-width: 572px;
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
-.hero__upyourskill-icon-img-wrapper{
+
+.hero__upyourskill-icon-img-wrapper {
     display: flex;
-    align-items: center;    
+    align-items: center;
 }
-.hero__upyourskill-icon-img{
+
+.hero__upyourskill-icon-img {
     margin-right: 10px;
 }
-.hero__upyourskill-icon-img-info{
+
+.hero__upyourskill-icon-img-info {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -92,19 +121,22 @@
     line-height: 40px;
     color: rgba(29, 41, 57, 0.7);
 }
-.hero__student{
+
+.hero__student {
     position: relative;
-    box-sizing: border-box;   
+    box-sizing: border-box;
     display: flex;
     justify-content: flex-end;
     padding-right: 40px;
     max-width: 626px;
-    width: 100%;    
+    width: 100%;
 }
-.hero__student-girl{
-    box-sizing: border-box; 
+
+.hero__student-girl {
+    box-sizing: border-box;
 }
-.hero__student-girl-onlineCourses{
+
+.hero__student-girl-onlineCourses {
     position: absolute;
     display: flex;
     justify-content: center;
@@ -121,28 +153,31 @@
     right: 0%;
     top: 0%;
     transform: translate(0px, 0px);
-    
+
 
 }
-.hero__student-girl-onlineCourses-chart{
+
+.hero__student-girl-onlineCourses-chart {
     width: 80px;
     height: 80px;
     margin-bottom: 12px;
-    
- 
+
+
 }
+
 .hero__student-girl-onlineCourses-number {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 25px;
     line-height: 30px;
-    text-align: center;    
+    text-align: center;
     color: #101828;
     margin-bottom: 12px;
 
 }
-.hero__student-girl-onlineCourses-info{
+
+.hero__student-girl-onlineCourses-info {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -153,7 +188,8 @@
     opacity: 0.5;
 
 }
-.hero__student-girl-videoCourses{
+
+.hero__student-girl-videoCourses {
     position: absolute;
     top: 32%;
     left: 0;
@@ -163,34 +199,38 @@
     flex-direction: row;
     align-items: center;
     box-sizing: border-box;
-    padding: 20px 17px;  
+    padding: 20px 17px;
     background: #F5F5F4;
     border: 1px solid #7F56D9;
     box-shadow: 0px 18px 38px rgba(0, 0, 0, 0.15);
     border-radius: 18px;
 
 }
-.hero__student-girl-videoCourses-icon{
-    
+
+.hero__student-girl-videoCourses-icon {
+
     max-width: 50px;
     width: 100%;
     margin-right: 25px;
-    
+
 }
-.hero__student-girl-videoCourses-text{
+
+.hero__student-girl-videoCourses-text {
     display: flex;
     flex-direction: column;
 }
-.hero__student-girl-videoCourses-text-number{
+
+.hero__student-girl-videoCourses-text-number {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 25px;
-    line-height: 30px;    
+    line-height: 30px;
     color: #101828;
     margin-bottom: 2px;
 }
-.hero__student-girl-videoCourses-text-info{
+
+.hero__student-girl-videoCourses-text-info {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -199,7 +239,8 @@
     color: #101828;
     opacity: 0.5;
 }
-.hero__student-girl-tutors{
+
+.hero__student-girl-tutors {
     position: absolute;
     right: 2%;
     bottom: 8%;
@@ -213,9 +254,10 @@
     box-shadow: 0px 18px 38px rgba(0, 0, 0, 0.15);
     border-radius: 18px;
     padding: 17px;
-    
+
 }
-.hero__student-girl-tutors__text-text{
+
+.hero__student-girl-tutors__text-text {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -225,32 +267,37 @@
     opacity: 0.5;
     margin-bottom: 2px;
 }
-.hero__student-girl-tutors__text-number{
+
+.hero__student-girl-tutors__text-number {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 25px;
     line-height: 30px;
     color: #101828;
-    
+
 }
-.hero__student-girl-tutors__icon{
+
+.hero__student-girl-tutors__icon {
     max-width: 50px;
     width: 100%;
     margin-right: 12px;
 
 }
-.hero__link-partner{
+
+.hero__link-partner {
     display: flex;
     align-items: center;
 }
-.hero__link-partner-collaboration{
+
+.hero__link-partner-collaboration {
     display: flex;
     flex-direction: column;
     max-width: 178px;
     width: 100%;
 }
-.hero__link-partner-collaboration-number{
+
+.hero__link-partner-collaboration-number {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -258,7 +305,8 @@
     line-height: 34px;
     color: #7F56D9;
 }
-.hero__link-partner-collaboration-info{
+
+.hero__link-partner-collaboration-info {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 300;
@@ -266,7 +314,8 @@
     line-height: 34px;
     color: #101828;
 }
-.hero__link-partner-icon{
+
+.hero__link-partner-icon {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
