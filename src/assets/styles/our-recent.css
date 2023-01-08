@@ -23,7 +23,7 @@
 .ourRecent__articles {
     display: flex;
     flex-direction: row;
-    column-gap: 32px;
+    column-gap: 16px;
 }
 
 .ourRecent__articles-small {
@@ -79,12 +79,13 @@
 }
 
 .ourRecent__articles-big-article-text-title {
-
-    margin-bottom: 9px;
-}
-
-.ourRecent__articles-big-article-text-title {
-    margin-bottom: 14px;
+    margin-bottom: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #101828;
 }
 
 .ourRecent__articles-small-article-text-info,
@@ -96,10 +97,11 @@
     line-height: 24px;
     color: #667085;
     margin-bottom: 24px;
+    padding-right: 10px
 }
 
 .ourRecent__articles-big-article-text-info {
-    margin-bottom: 26px;
+    margin-bottom: 24px;
 }
 
 .ourRecent__articles-small-article-text-category,
@@ -164,5 +166,5 @@
 .ourRecent__articles-big-article-img {
     max-width: 592px;
     width: 100%;
-    margin-bottom: 33px;
+    margin-bottom: 28px;
 }

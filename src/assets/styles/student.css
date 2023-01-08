@@ -1,25 +1,28 @@
-.reviews{
+.reviews {
     max-width: 1440px;
     width: 100%;
     margin: auto;
     box-sizing: border-box;
     padding-top: 40px;
     padding-bottom: 40px;
-     }
-.reviews__wrapper{
+}
+
+.reviews__wrapper {
     display: flex;
-    padding: 96px 80px;
+    padding: 93px 80px;
     justify-content: center;
     flex-direction: column;
     background: #F9FAFB;
     margin-bottom: 20px;
 
 }
-.reviews__logo{
+
+.reviews__logo {
     margin: auto;
     margin-bottom: 32px;
 }
-.reviews__info{
+
+.reviews__info {
     margin: auto;
     font-family: 'Inter';
     font-style: normal;
@@ -31,17 +34,20 @@
     color: #101828;
     margin-bottom: 32px;
 }
-.reviews__student{
+
+.reviews__student {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.reviews__student-photo{
+
+.reviews__student-photo {
     max-width: 64px;
     width: 100%;
     margin-bottom: 16px;
 }
-.reviews__student-name{
+
+.reviews__student-name {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -50,7 +56,8 @@
     color: #101828;
     margin-bottom: 4px;
 }
-.reviews__student-study{
+
+.reviews__student-study {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -58,6 +65,7 @@
     line-height: 24px;
     color: #667085;
 }
+
 .reviews__slider {
     max-width: 100%;
 }
@@ -79,11 +87,9 @@
 }
 
 .reviews__slider-item--active {
-    position: absolute;
     max-width: 48px;
     width: 100%;
     height: 12px;
     border-radius: 10px;
     background-color: #7F56D9;
-    transform: translate(-18px, 0px);
 }

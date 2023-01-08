@@ -1,12 +1,13 @@
-.tutors{
-        max-width: 1440px;
-        width: 100%;
-        margin: auto;
-        padding: 40px 120px 40px;
-        box-sizing: border-box;
+.tutors {
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+    padding: 40px 120px 40px;
+    box-sizing: border-box;
 
 }
-.tutors__text{
+
+.tutors__text {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
@@ -16,7 +17,8 @@
     color: #6941C6;
     margin-bottom: 12px;
 }
-.tutors__title{
+
+.tutors__title {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
@@ -27,7 +29,8 @@
     color: #101828;
     margin-bottom: 20px;
 }
-.tutors__info{
+
+.tutors__info {
     max-width: 768px;
     width: 100%;
     margin: auto;
@@ -38,36 +41,41 @@
     line-height: 30px;
     text-align: center;
     color: #667085;
-    margin-bottom: 40px;
+    margin-bottom: 37px;
 }
-.tutors__meetHeroes{
+
+.tutors__meetHeroes {
     display: flex;
     justify-content: space-between;
 }
-.tutors__meetHeroes-item{
+
+.tutors__meetHeroes-item {
     display: flex;
     max-width: 276px;
     width: 100%;
     box-sizing: border-box;
     padding: 24px;
-    background: #F9FAFB;  
+    background: #F9FAFB;
 
 }
+
 .tutors__meetHeroes-item-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.tutors__meetHeroes-item-hero{
+
+.tutors__meetHeroes-item-hero {
     text-align: center;
 }
 
-.tutors__meetHeroes-item-hero-photo{
+.tutors__meetHeroes-item-hero-photo {
     max-width: 80px;
     width: 100%;
     margin-bottom: 20px;
 }
-.tutors__meetHeroes-item-hero-name{
+
+.tutors__meetHeroes-item-hero-name {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -76,7 +84,8 @@
     text-align: center;
     color: #101828;
 }
-.tutors__meetHeroes-item-hero-category{
+
+.tutors__meetHeroes-item-hero-category {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -86,7 +95,8 @@
     color: #6941C6;
     margin-bottom: 8px;
 }
-.tutors__meetHeroes-item-hero-info{
+
+.tutors__meetHeroes-item-hero-info {
 
     font-family: 'Inter';
     font-style: normal;
@@ -97,10 +107,12 @@
     color: #667085;
     margin-bottom: 16px;
 }
-.tutors__meetHeroes-item-hero-contact{
+
+.tutors__meetHeroes-item-hero-contact {
     display: flex;
     justify-content: center;
 }
-.tutors__meetHeroes-item-hero-contact>:first-child{
+
+.tutors__meetHeroes-item-hero-contact>:first-child {
     margin-right: 16px;
 }

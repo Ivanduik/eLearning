@@ -10,15 +10,36 @@
 
 .hero-ellipse-left {
     position: absolute;
-    left: -10px;
+    left: -7px;
     top: 10%;
     z-index: -100;
 }
 
 .hero-ellipse-right {
     position: absolute;
-    right: -39px;
+    right: -17px;
     bottom: 1%;
+    z-index: -100;
+}
+
+.hero-circle-lightpurpule {
+    position: absolute;
+    left: -191px;
+    bottom: 0%;
+    z-index: -100;
+    width: 476px;
+    height: 476px;
+    background-image: radial-gradient(50% 50% at 50% 50%, rgba(127, 86, 217, 0.12) 0%, rgba(36, 187, 140, 0) 100%);
+}
+
+.hero-circle {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    background-color: rgba(127, 86, 217, 0.6);
+    border-radius: 50%;
+    left: 25%;
+    bottom: 17%;
     z-index: -100;
 }
 
@@ -62,7 +83,7 @@
     font-size: 16px;
     line-height: 180%;
     color: #646464;
-    margin-bottom: 36px;
+    margin-bottom: 37px;
 }
 
 .hero__upyourskill-title-btns {
@@ -80,7 +101,7 @@
     border: 1px solid #7F56D9;
     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px #F4EBFF;
     color: #FFFFFF;
-    margin-right: 28px;
+    margin-right: 23px;
     cursor: pointer;
 }
 
@@ -127,7 +148,7 @@
     box-sizing: border-box;
     display: flex;
     justify-content: flex-end;
-    padding-right: 40px;
+    padding-right: 37px;
     max-width: 626px;
     width: 100%;
 }
@@ -151,7 +172,7 @@
     box-shadow: 0px 18px 38px rgba(0, 0, 0, 0.15);
     border-radius: 18px;
     right: 0%;
-    top: 0%;
+    top: 1%;
     transform: translate(0px, 0px);
 
 
@@ -191,8 +212,8 @@
 
 .hero__student-girl-videoCourses {
     position: absolute;
-    top: 32%;
-    left: 0;
+    top: 34%;
+    left: 1px;
     display: flex;
     max-width: 215px;
     width: 100%;
@@ -295,6 +316,7 @@
     flex-direction: column;
     max-width: 178px;
     width: 100%;
+    margin-right: 50px;
 }
 
 .hero__link-partner-collaboration-number {
@@ -319,5 +341,5 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    justify-content: space-evenly;
+    column-gap: 60px;
 }

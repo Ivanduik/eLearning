@@ -21,7 +21,7 @@
 
 .footer__discription-logo {
     max-width: 167px;
-    margin-bottom: 32px;
+    margin-bottom: 28px;
 }
 
 .footer__discription-info {
@@ -72,6 +72,19 @@
     color: #EAECF0;
     text-decoration: none;
     cursor: pointer;
+}
+
+.footer__menu-items-menu-item-link-icon {
+    padding: 4px 8px;
+    background: #F2F4F7;
+    border-radius: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #101828;
+    margin-left: 5px;
 }
 
 .footer-contats {
