@@ -168,3 +168,46 @@
     width: 100%;
     margin-bottom: 28px;
 }
+
+@media screen and (max-width: 1475px) {
+
+    .ourRecent-title {
+
+        text-align: center;
+    }
+
+
+
+    .ourRecent__articles {
+        /* justify-content: space-evenly; */
+        flex-wrap: wrap;
+        column-gap: 10px;
+        row-gap: 20px;
+    }
+
+    .ourRecent__articles-small {
+        max-width: 85%;
+
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .ourRecent {
+        padding: 28px 60px;
+    }
+
+    .ourRecent__articles-small-article {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .ourRecent__articles-small-article-text-category,
+    .ourRecent__articles-big-article-text-category {
+        justify-content: center;
+    }
+
+    .ourRecent__articles-big-article {
+        text-align: center;
+    }
+}

@@ -111,3 +111,42 @@
 .footer-contats-info-social-img {
     max-width: 24px;
 }
+
+@media screen and (max-width: 1475px) {
+
+
+    .footer__menu-items-menu {
+        max-width: 100px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .footer {
+        padding: 28px 60px;
+    }
+
+    .footer-wrapper {
+        display: flex;
+        padding: 0 0px 48px;
+    }
+
+    .footer__discription {
+        margin-right: 10px;
+    }
+
+    .footer__menu-items-menu {
+        max-width: 100px;
+    }
+
+    .footer__menu-items {
+        flex-wrap: wrap;
+        row-gap: 28px;
+    }
+
+    .footer-contats {
+
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+}

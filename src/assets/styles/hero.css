@@ -43,7 +43,7 @@
     z-index: -100;
 }
 
-.hero-container {
+.hero-main {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -154,6 +154,8 @@
 }
 
 .hero__student-girl {
+    max-width: 518px;
+    width: 100%;
     box-sizing: border-box;
 }
 
@@ -342,4 +344,44 @@
     flex-wrap: wrap;
     width: 100%;
     column-gap: 60px;
+}
+
+@media screen and (max-width: 1475px) {
+    .hero-main {
+        justify-content: center;
+        row-gap: 20px;
+    }
+
+    .hero__upyourskill {
+        max-width: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+
+
+    .hero__link-partner-icon {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .hero {
+        padding: 28px 60px;
+    }
+
+
+}
+
+@media screen and (max-width: 750px) {
+    .hero {
+        padding: 28px 60px;
+    }
+
+    .hero__student-girl-videoCourses {
+        top: -7%;
+    }
+
 }

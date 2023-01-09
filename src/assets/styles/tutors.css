@@ -116,3 +116,22 @@
 .tutors__meetHeroes-item-hero-contact>:first-child {
     margin-right: 16px;
 }
+
+@media screen and (max-width: 1475px) {
+
+
+    .tutors__meetHeroes {
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        column-gap: 10px;
+        row-gap: 20px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .tutors {
+        padding: 28px 60px;
+    }
+
+
+}

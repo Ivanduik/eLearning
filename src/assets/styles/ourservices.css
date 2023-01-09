@@ -1,12 +1,12 @@
 .ourServices {
+    box-sizing: border-box;
     max-width: 1440px;
     width: 100%;
     margin: auto;
-}
-
-.ourServices__container {
     padding: 70px 120px 40px;
 }
+
+
 
 .ourServices__info-text {
     font-family: 'Inter';
@@ -133,5 +133,34 @@
     height: 12px;
     border-radius: 10px;
     background-color: #7F56D9;
+
+}
+
+@media screen and (max-width: 1475px) {
+
+    .ourServices__services {
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        column-gap: 10px;
+        row-gap: 20px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .ourServices {
+        padding: 28px 60px;
+    }
+
+
+}
+
+@media screen and (max-width: 750px) {
+    .hero {
+        padding: 28px 60px;
+    }
+
+    .hero__student-girl-videoCourses {
+        top: -7%;
+    }
 
 }

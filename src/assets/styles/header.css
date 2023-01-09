@@ -69,6 +69,7 @@
 .header__search-input {
     display: flex;
     max-width: 210px;
+    width: 100%;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -156,15 +157,31 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 1348px) {
+
+@media screen and (max-width: 1383px) {
+    .header__authorization {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .header {
+        padding: 28px 60px;
+    }
+
+    .header-container {
+        justify-content: center;
+    }
 
     .header__navigation {
-        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        row-gap: 20px;
     }
 
-    .header__authorization {
-
-        margin-top: 10px;
-
+    .header__search {
+        order: 3;
     }
+
+
 }

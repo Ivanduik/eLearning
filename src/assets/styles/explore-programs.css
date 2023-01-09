@@ -6,7 +6,11 @@
     box-sizing: border-box;
 }
 
-.explorePrograms-text {
+.explorePrograms__description {
+    margin-bottom: 40px;
+}
+
+.explorePrograms__description-text {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
@@ -14,10 +18,9 @@
     line-height: 24px;
     color: #6941C6;
     margin-bottom: 12px;
-    text-align: left;
 }
 
-.explorePrograms-title {
+.explorePrograms__description-title {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
@@ -28,7 +31,22 @@
     margin-bottom: 20px;
 }
 
-.explorePrograms-programs-item {
+.explorePrograms__description-info {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #667085;
+}
+
+.explorePrograms__programs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.explorePrograms__programs-item {
     box-sizing: border-box;
     max-width: 384px;
     width: 100%;
@@ -37,30 +55,18 @@
     border-radius: 8px;
 }
 
-.explorePrograms-info {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
-    color: #667085;
-    margin-bottom: 40px;
-}
 
-.explorePrograms-programs {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 40px;
-}
 
-.explorePrograms-programs-item-img {
+
+
+.explorePrograms__programs-item-img {
     position: relative;
     border-radius: 4px;
     margin-bottom: 28px;
 
 }
 
-.explorePrograms-programs-item-img-time {
+.explorePrograms__programs-item-img-time {
     display: flex;
     align-items: center;
     padding: 6px 10px;
@@ -72,11 +78,11 @@
 
 }
 
-.explorePrograms-programs-item-img-time-icon {
+.explorePrograms__programs-item-img-time-icon {
     margin-right: 6px;
 }
 
-.explorePrograms-programs-item-description-category {
+.explorePrograms__programs-item-description-category {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
@@ -86,7 +92,7 @@
     margin-bottom: 12px;
 }
 
-.explorePrograms-programs-item-description-title {
+.explorePrograms__programs-item-description-title {
     display: flex;
     justify-content: space-between;
     font-family: 'Inter';
@@ -98,7 +104,7 @@
     margin-bottom: 12px;
 }
 
-.explorePrograms-programs-item-description-info {
+.explorePrograms__programs-item-description-info {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -108,13 +114,13 @@
     margin-bottom: 13px;
 }
 
-.explorePrograms-programs-item-description-likes {
+.explorePrograms__programs-item-description-likes {
     display: flex;
     column-gap: 5px;
     margin-bottom: 32px;
 }
 
-.explorePrograms-programs-item-description-likes>:first-child {
+.explorePrograms__programs-item-description-likes>:first-child {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -124,7 +130,7 @@
     margin-right: 2px;
 }
 
-.explorePrograms-programs-item-description-likes>:last-child {
+.explorePrograms__programs-item-description-likes>:last-child {
     margin-left: 7px;
     font-family: 'Inter';
     font-style: normal;
@@ -226,4 +232,36 @@
     font-size: 14px;
     line-height: 20px;
     color: #101828;
+}
+
+@media screen and (max-width: 1475px) {
+    .explorePrograms__description {
+        text-align: center;
+    }
+
+    .explorePrograms__programs {
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        column-gap: 10px;
+        row-gap: 20px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .explorePrograms {
+        padding: 28px 60px;
+    }
+
+
+}
+
+@media screen and (max-width: 750px) {
+    .hero {
+        padding: 28px 60px;
+    }
+
+    .hero__student-girl-videoCourses {
+        top: -7%;
+    }
+
 }
