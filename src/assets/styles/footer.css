@@ -110,6 +110,7 @@
 
 .footer-contats-info-social-img {
     max-width: 24px;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 1475px) {
