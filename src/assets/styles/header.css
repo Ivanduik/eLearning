@@ -18,20 +18,14 @@
 }
 
 .header__navigation {
-    /* max-width: 618px;
-    width: 100%; */
     display: flex;
     justify-content: space-between;
-
-
 }
 
 .header__nav {
     display: flex;
     column-gap: 25px;
     align-items: center;
-
-
 }
 
 .header__logo {
@@ -121,7 +115,6 @@
     line-height: 24px;
     color: #101828;
     cursor: pointer;
-
 }
 
 .header__authorization {
@@ -130,7 +123,6 @@
 }
 
 .header__authorization-sign-in-link {
-
     font-family: Inter;
     color: #101828;
     font-size: 16px;
@@ -141,12 +133,10 @@
 }
 
 .header__authorization-create-free-account {
-
     font-family: Inter;
     font-size: 14px;
     font-weight: 600;
     line-height: 20px;
-
     padding: 10px 16px;
     margin-left: 20px;
     color: #FFFFFF;
@@ -182,6 +172,4 @@
     .header__search {
         order: 3;
     }
-
-
 }

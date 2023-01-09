@@ -41,7 +41,6 @@
 }
 
 .ourServices__services-item {
-
     box-sizing: border-box;
     max-width: 373px;
     width: 100%;
@@ -120,7 +119,6 @@
 }
 
 .ourServices__slider-item {
-
     width: 12px;
     height: 12px;
     border-radius: 50%;
@@ -137,7 +135,6 @@
 }
 
 @media screen and (max-width: 1475px) {
-
     .ourServices__services {
         justify-content: space-evenly;
         flex-wrap: wrap;
@@ -150,8 +147,6 @@
     .ourServices {
         padding: 28px 60px;
     }
-
-
 }
 
 @media screen and (max-width: 750px) {
@@ -162,5 +157,4 @@
     .hero__student-girl-videoCourses {
         top: -7%;
     }
-
 }

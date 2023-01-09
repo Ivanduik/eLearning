@@ -55,7 +55,6 @@
     box-sizing: border-box;
     max-width: 573px;
     width: 100%;
-
 }
 
 .hero__upyourskill-title {
@@ -176,16 +175,12 @@
     right: 0%;
     top: 1%;
     transform: translate(0px, 0px);
-
-
 }
 
 .hero__student-girl-onlineCourses-chart {
     width: 80px;
     height: 80px;
     margin-bottom: 12px;
-
-
 }
 
 .hero__student-girl-onlineCourses-number {
@@ -197,7 +192,6 @@
     text-align: center;
     color: #101828;
     margin-bottom: 12px;
-
 }
 
 .hero__student-girl-onlineCourses-info {
@@ -209,7 +203,6 @@
     text-align: center;
     color: #101828;
     opacity: 0.5;
-
 }
 
 .hero__student-girl-videoCourses {
@@ -227,7 +220,6 @@
     border: 1px solid #7F56D9;
     box-shadow: 0px 18px 38px rgba(0, 0, 0, 0.15);
     border-radius: 18px;
-
 }
 
 .hero__student-girl-videoCourses-icon {
@@ -235,7 +227,6 @@
     max-width: 50px;
     width: 100%;
     margin-right: 25px;
-
 }
 
 .hero__student-girl-videoCourses-text {
@@ -277,7 +268,6 @@
     box-shadow: 0px 18px 38px rgba(0, 0, 0, 0.15);
     border-radius: 18px;
     padding: 17px;
-
 }
 
 .hero__student-girl-tutors__text-text {
@@ -298,14 +288,12 @@
     font-size: 25px;
     line-height: 30px;
     color: #101828;
-
 }
 
 .hero__student-girl-tutors__icon {
     max-width: 50px;
     width: 100%;
     margin-right: 12px;
-
 }
 
 .hero__link-partner {
@@ -371,8 +359,6 @@
     .hero {
         padding: 28px 60px;
     }
-
-
 }
 
 @media screen and (max-width: 750px) {
@@ -383,5 +369,4 @@
     .hero__student-girl-videoCourses {
         top: -7%;
     }
-
 }
