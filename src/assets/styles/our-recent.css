@@ -170,7 +170,7 @@
     }
 
     .ourRecent__articles {
-        /* justify-content: space-evenly; */
+        justify-content: center;
         flex-wrap: wrap;
         column-gap: 10px;
         row-gap: 20px;
@@ -191,6 +191,11 @@
         flex-wrap: wrap;
         justify-content: center;
         text-align: center;
+    }
+
+    .ourRecent__articles-small-article-img img {
+        max-width: 320px;
+        width: 100%;
     }
 
     .ourRecent__articles-small-article-text-category,
